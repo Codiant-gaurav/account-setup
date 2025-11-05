@@ -1,7 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+
+export interface UserData {
+  email: string;
+  firstName: string;
+  lastName: string;
+  phoneNumber: string;
+}
 
 export interface AuthenticationState {
-  userData: object | undefined;
+  userData: UserData | undefined;
 }
 
 const initialState: AuthenticationState = {
@@ -12,7 +19,7 @@ export const authenticationSlice = createSlice({
   name: 'authentication',
   initialState,
   reducers: {
-    setUserData: (state, action) => {
+    setUserData: (state, action: PayloadAction<UserData>) => {
       state.userData = action.payload;
     },
     clearUserData: state => {
