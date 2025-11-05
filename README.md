@@ -59,3 +59,10 @@ yarn ios
 If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+
+# Screenshots
+<img width="270" height="555" alt="Screenshot_1762338002" src="https://github.com/user-attachments/assets/0124cb65-cc2f-465d-a29d-24d11efcd3f3" />
+<img width="270" height="555" alt="Screenshot_1762337984" src="https://github.com/user-attachments/assets/40b84995-1f48-4c7b-b714-1e530f451761" />
+<img width="270" height="555" alt="Screenshot_1762337979" src="https://github.com/user-attachments/assets/e0ba51e3-23c9-4422-b19a-a22158e587ae" />
+
+
